@@ -1,0 +1,20 @@
+{
+  "name": "trading-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && node --experimental-modules --experimental-specifier-resolution=node dist/main.js"
+  },
+  "keywords": [],
+  "author": "Jonathan Nichols",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^14.14.41",
+    "axios": "^0.21.1",
+    "ccxt": "^1.48.62",
+    "talib.js": "^0.1.0",
+    "tslib": "^2.2.0"
+  }
+}
